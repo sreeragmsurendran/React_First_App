@@ -5,23 +5,28 @@ import {homeObjeOne,homeObjThree,homeObjFour,homeObjTwo} from './Data'
 function Signup() {
     return (
         <>
+    
         {/* <div className='center'> */}
         <div className='card center'>
         <img className='imgsize' src="images/login_signup2.svg" alt="Avatar"/>
-        <form className="form center">
-                   <div className="form-inputs">
-                       <label htmlFor='username' className='form-label'>
-                        <input type="text" name='username' className="form-inputs" placeholder='Username'/>
-                        </label>
-                   </div>
-                   <div className="form-inputs">
-                       <label htmlFor='email' className='form-label'>
+        <div  className='topcard'>
+        <form>
+                   
+                      <div className="signtext">
+                          Sign Up
+                      </div>
+                        <input type="text" name='Firstname' className="form-inputs" placeholder='First Name'/>
+
+                        <input type="text" name='Lastname' className="form-inputs" placeholder='Last Name'/>
                         <input type="email" name='email' className="form-inputs" placeholder='Email' />
-                        </label>
-                   </div>
+                        <input type="number" name='phonenumber' className="form-inputs" placeholder='Phone Number' />
+                        <input type="number" name='phonenumber' className="form-inputs" placeholder='Phone Number' />   
+                  
                    <button className="form-input-btn">  
                     Signup</button>
+                   
                </form>
+               </div>
         </div>
 ]        {/* </div> */}
            
